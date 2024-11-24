@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.button {
+  appearance: none;
+  width: max-content;
+  padding: 15px;
+  background-color: rgb(108, 140, 246);
+  box-sizing: border-box;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  background-color: rgb(93, 120, 210);
+}
+
+.button:focus {
+  border: 2px solid rgb(148, 172, 252);
+}
+
+.text-content {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  width: 50%;
+  height: 0;
+  transition: all 0.5s linear;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.text-content p {
+  padding: 15px;
+  margin: 0;
+}
+
+.collapsed p {
+  height: 100px;
+}
+
+.collapsed {
+  opacity: 1;
+
+  height: 100px;
+}
