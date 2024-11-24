@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint .",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "lint": "eslint ."
-  },
+    "build": "webpack --mode production"
+   },
   "author": "",
   "license": "ISC",
   "description": "",
